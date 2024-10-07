@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pay Toll</title>
+  <link rel="stylesheet" href="Paystyle.css">
+</head>
+<body>
+    <nav>
+        <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="About.html">About</a></li>
+            <li><a href="#" class="disabled">Services</a></li>
+            <li><a href="#"  class="disabled">Contact</a></li>
+        </ul>
+    </nav>
+  <h1>Pay Toll</h1>
+
+  <form id="payTollForm">
+    <label for="vehicleNumberPay">Vehicle Number</label>
+    <input type="text" id="vehicleNumberPay" name="vehicleNumber" required>
+
+    <label for="tollAmount">Toll Amount</label>
+    <input type="number" id="tollAmount" name="tollAmount" required>
+
+    <button type="submit">Pay Toll</button>
+  </form>
+  <script src="pay_toll.js"></script>
+</body>
+</html>
